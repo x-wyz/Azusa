@@ -1,0 +1,19 @@
+Pages
+	- Login/Sign up - Personal
+	- Homepage
+	- Profile/Business
+		- saved items
+	- Search page
+	- Product page(store)
+	- Customer Service
+	- Terms & Condition
+	- Privacy Policy
+	- About
+
+Component
+	- Header
+	- Shopping cart
+
+Dev
+	- Database
+	- Searchbox
