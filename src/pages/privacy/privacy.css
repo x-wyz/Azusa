@@ -1,0 +1,23 @@
+.privacy-container {
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: center;
+}
+
+.privacy-text {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.to-about {
+	border: 1px solid black;
+	padding: 0.3em;
+	width: 70px;
+}
+
+.to-about-container {
+	margin: 0 auto;
+	width: 80px;
+	margin-top: 3em;
+}

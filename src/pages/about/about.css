@@ -1,6 +1,8 @@
 .about-container {
-	position: absolute;
-	margin-top: 4em;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: center;
 }
 
 h3, h2, p.mission-text {
