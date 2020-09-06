@@ -12,10 +12,8 @@ Pages
 
 	- Terms & Condition
 	- Privacy Policy
-	- About
 
 Component
-	- Header
 	- Shopping cart
 
 Dev

@@ -1,0 +1,39 @@
+.about-container {
+	position: absolute;
+	margin-top: 4em;
+}
+
+h3, h2, p.mission-text {
+	text-align: center;
+}
+
+.connect-container {
+	display: flex;
+	width: 22%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.terms-policies-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top-margin {
+	margin-top: 0.4em;
+}
+
+.connect-button {
+	color: black;
+	padding: 0.6em;
+	border: 1px solid black;
+}
+
+.about-paragraph {
+	width: 50%;
+	margin: 0 auto;
+}
