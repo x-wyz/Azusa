@@ -7,10 +7,15 @@
 	width: auto;
 }
 
-.icon {
-	width: 20px;
-	height: 20px;
-	background: orange;
+.logo {
+	background: pink;
+}
+
+.company-logo {
+	display: block;
+	width: 85px;
+	height: 85px;
+	margin: 0 auto;
 }
 
 .upper-section, .lower-section, .navigation {
@@ -23,16 +28,13 @@
 	height: 100%;
 }
 
-.upper-section {
-	margin-top: 65%;
-}
 
 .upper-section .nav-link-container {
 	margin-top: 20px;
 }
 
 .lower-section {
-	margin-bottom: 50%;
+	margin-bottom: 90%;
 }
 
 .lower-section .nav-link-container {

@@ -3,12 +3,14 @@ import './navbar.css';
 
 import { Link } from 'react-router-dom';
 
+import Logo from '../../icons/logo.png';
+
 class Navbar extends Component {
 	render(){
 		return (
 			<div className="navigation-container">
 				<div className="icon">
-					<img className="company-logo" src="#" alt=" "/>
+					<img className="company-logo" src={Logo} alt=" "/>
 				</div>
 				<div className="navigation">
 					<div className="upper-section">

@@ -1,3 +1,17 @@
+@font-face {
+	font-family: fredoka;
+	src: url('./fonts/fredoka-one-regular.ttf');
+}
+
+@font-face {
+	font-family: cabin;
+	src: url('./fonts/cabin-regular.ttf');
+}
+
+* {
+	font-family: cabin;
+}
+
 html, body /*div, span, h1, h2, 
 h3, h4, p, a, img*/ {
 	margin: 0;
@@ -11,8 +25,15 @@ h3, h4, p, a, img*/ {
 a {
 	text-decoration: none;
 	color: black;
+	font-family: cabin;
+	font-weight: 300;
 }
 
 h1,h2,h3, .center-text {
 	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: fredoka;
+	font-weight: 400;
 }

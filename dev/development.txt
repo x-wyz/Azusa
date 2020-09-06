@@ -1,14 +1,23 @@
 Pages
+
+	- Sign in / Sign up
+
 	- Search page
 		- Stores (Search Result)
 
 	- FAQ
 
-	- Recover ACC
+	- Contact Us
 
 	- Refund
 
-	- Contact
+	- Recover Acc
+
+	- Colours
+
+	- Fonts
+
+	- CSS
 
 Component
 	- Shopping cart
