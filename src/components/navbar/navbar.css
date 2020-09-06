@@ -1,0 +1,56 @@
+.navigation-container {
+	position: fixed;
+	background: gray;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: auto;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	background: orange;
+}
+
+.upper-section, .lower-section, .navigation {
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation {
+	justify-content: space-between;
+	height: 100%;
+}
+
+.upper-section {
+	margin-top: 65%;
+}
+
+.upper-section .nav-link-container {
+	margin-top: 20px;
+}
+
+.lower-section {
+	margin-bottom: 50%;
+}
+
+.lower-section .nav-link-container {
+	margin-bottom: 20px;
+}
+
+.nav-link-container {
+	background-color: red;
+	width: 90px;
+}
+
+.nav-link {
+	display: flex;
+	text-decoration: none;
+	justify-content: space-around;
+	color: black;
+}
+
+.nav-link:hover {
+	color: blue;
+}

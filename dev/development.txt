@@ -1,11 +1,15 @@
 Pages
-	- Login/Sign up - Personal
 	- Homepage
+	- Search page
+		- Stores (Search Result)
+
+	- Customer Service
+
+	- Login/Sign up - Personal
+	- Accounts Page
 	- Profile/Business
 		- saved items
-	- Search page
-	- Product page(store)
-	- Customer Service
+
 	- Terms & Condition
 	- Privacy Policy
 	- About
@@ -17,3 +21,6 @@ Component
 Dev
 	- Database
 	- Searchbox
+
+Others
+	- HTML Emails
