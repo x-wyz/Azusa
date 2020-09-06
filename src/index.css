@@ -1,8 +1,18 @@
+html, body /*div, span, h1, h2, 
+h3, h4, p, a, img*/ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 a {
 	text-decoration: none;
 	color: black;
 }
 
-h2,h3, .center-text {
+h1,h2,h3, .center-text {
 	text-align: center;
 }

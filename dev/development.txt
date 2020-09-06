@@ -1,17 +1,20 @@
 Pages
 	- Homepage
+
 	- Search page
 		- Stores (Search Result)
-
-	- Customer Service
 
 	- Login/Sign up - Personal
 	- Accounts Page
 	- Profile/Business
 		- saved items
 
-	- Terms & Condition
-	- Privacy Policy
+	- Help
+		- Contact Us
+		- Recover Account
+		- Refunds
+		- Terms of Service
+		- FAQ
 
 Component
 	- Shopping cart
