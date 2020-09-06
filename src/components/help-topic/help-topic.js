@@ -4,11 +4,13 @@ import './help-topic.css';
 
 import { Link } from 'react-router-dom';
 
-function HelpTopic(props){
+function HelpTopic({ name, link }){
 	return (
-		<div className="help-topic">
-			
-		</div>
+		<Link to={link} className="help-topic">
+			<div>
+				<p>{name}</p>
+			</div>
+		</Link>
 	)
 }
 

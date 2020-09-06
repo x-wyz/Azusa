@@ -1,20 +1,14 @@
 Pages
-	- Homepage
-
 	- Search page
 		- Stores (Search Result)
 
-	- Login/Sign up - Personal
-	- Accounts Page
-	- Profile/Business
-		- saved items
+	- FAQ
 
-	- Help
-		- Contact Us
-		- Recover Account
-		- Refunds
-		- Terms of Service
-		- FAQ
+	- Recover ACC
+
+	- Refund
+
+	- Contact
 
 Component
 	- Shopping cart
