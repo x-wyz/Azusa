@@ -8,14 +8,14 @@
 	background: var(--secondary-color-content);
 }
 
-h3, h2, p.mission-text {
+h3, h2, p.mission-text  {
 	text-align: center;
 }
 
 .connect-container {
 	display: flex;
 	width: 22%;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@ h3, h2, p.mission-text {
 
 .connect-button {
 	color: black;
+	margin: 0 1.2em;
 }
 
 .tos {
@@ -70,4 +71,12 @@ h3, h2, p.mission-text {
 .about-paragraph {
 	width: 80%;
 	margin: 0 auto;
+}
+
+.about-subheader, .mission-text {
+	color: rgb(64, 64, 64);
+}
+
+.about-header {
+	font-size: 29px;
 }

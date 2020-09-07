@@ -27,7 +27,7 @@ class AccountPresigned extends Component {
 		const { signup } = this.state;
 
 		return (
-			<div>
+			<div className="account-form">
 				{
 					signup ? <SignUp /> : <SignIn />
 				}

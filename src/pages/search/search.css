@@ -1,0 +1,38 @@
+.search-page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: var(--content-width-1);
+	margin: 0 auto;
+	background: var(--secondary-color-content);
+}
+
+.search-container {
+	background: rgba(228, 235, 240, 1);
+	padding-top: 0.8em;
+	border-bottom: 1px solid rgb(21, 28, 32, 0.1);
+}
+
+.search-formfield {
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+.searchfield-text {
+	display: block;
+	width: 70%;
+	border: 0;
+	padding: 0.5em;
+	font-size: 15px;
+	outline: 0;
+	text-align: center;
+}
+
+.searchfield-submit {
+	display: block;
+	width: 40%;
+	border: 0;
+}
+

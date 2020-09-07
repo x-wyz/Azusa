@@ -13,6 +13,11 @@
 	margin: 0 auto;
 }
 
+.privacy-list li {
+	margin-top: 0.2em;
+	margin-left: 10em;
+}
+
 .to-about {
 	border: 1px solid black;
 	padding: 0.3em;
@@ -23,4 +28,6 @@
 	margin: 0 auto;
 	width: 80px;
 	margin-top: 3em;
+	margin-bottom: 3em;
 }
+

@@ -6,12 +6,9 @@
 	background: var(--secondary-color-content);
 }
 
-.conditions {
-	width: 90%;
+.tos_condition {
+	width: 80%;
 	margin: 0 auto;
-}
-
-.conditions li {
-	margin-top: 0.6em;
+	margin-top: 1em;
 }
 
