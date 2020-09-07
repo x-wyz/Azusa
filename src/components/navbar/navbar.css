@@ -1,14 +1,29 @@
 .navigation-container {
 	position: fixed;
-	background: gray;
+	background: var(--base-color-1);
 	top: 0;
 	left: 0;
 	height: 100vh;
 	width: auto;
+	border-right: var(--border-style-1);
 }
 
-.logo {
-	background: pink;
+.navigation-container::after {
+	content: '';
+	position: absolute;
+	border-right: 25px solid var(--base-color-deco);
+	border-top: 25px solid transparent;
+	bottom: 0;
+	right: -13px;
+}
+
+.navigation-container::before {
+	content: '';
+	position: absolute;
+	border-left: 25px solid transparent;
+	border-top: 25px solid var(--base-color-deco);
+	top: 0;
+	right: -13px;
 }
 
 .company-logo {
@@ -16,6 +31,11 @@
 	width: 85px;
 	height: 85px;
 	margin: 0 auto;
+	transition: all 5s;
+}
+
+.company-logo:hover {
+	transform: rotate(360deg);
 }
 
 .upper-section, .lower-section, .navigation {
@@ -30,29 +50,33 @@
 
 
 .upper-section .nav-link-container {
-	margin-top: 20px;
+	margin-top: 0.6em;
 }
 
 .lower-section {
-	margin-bottom: 90%;
+	margin-bottom: 150%;
 }
 
 .lower-section .nav-link-container {
-	margin-bottom: 20px;
+	margin-bottom: 0.6em;
 }
 
 .nav-link-container {
-	background-color: red;
+	background: var(--nav-link-color);
 	width: 90px;
+	transition: background 0.25s;
+}
+
+.nav-link-container:hover {
+	background: var(--nav-link-color-hover);
 }
 
 .nav-link {
 	display: flex;
 	text-decoration: none;
 	justify-content: space-around;
-	color: black;
-}
-
-.nav-link:hover {
-	color: blue;
+	color: var(--logo-color-dark);
+	font-weight: 600;
+	transition: color 0.25s;
+	padding: 0;
 }

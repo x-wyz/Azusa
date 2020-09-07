@@ -1,3 +1,17 @@
+:root {
+	--base-color-1: rgba(255,213,154, 0.8);
+	--base-color-2: rgb(255, 233, 201);
+	--base-color-deco: rgb(196, 153, 92);
+
+	--nav-link-color: rgba(255, 204, 130, 1);
+	--nav-link-color-hover: rgba(242, 191, 116, 0.6);
+
+	--logo-color-light: rgba(145 ,185 ,142 ,1);
+	--logo-color-dark: rgba(69 ,119 ,59 ,1);
+
+	--border-style-1: 11px solid rgba(196, 153, 92, 0.8);
+}
+
 @font-face {
 	font-family: fredoka;
 	src: url('./fonts/fredoka-one-regular.ttf');
@@ -20,6 +34,10 @@ h3, h4, p, a, img*/ {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+
+html {
+	background: var(--base-color-2);
 }
 
 a {

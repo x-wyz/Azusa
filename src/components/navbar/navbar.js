@@ -16,21 +16,18 @@ class Navbar extends Component {
 					<div className="upper-section">
 						<div className="nav-link-container">
 							<Link to="/" className="nav-link">
-								<p className="nav-img">H</p>
 								<p className="nav-text">Home</p>
 							</Link>
 						</div>
 
 						<div className="nav-link-container">
 							<Link to="/stores" className="nav-link">
-								<p className="nav-img">S</p>
 								<p className="nav-text">Search</p>
 							</Link>
 						</div>
 
 						<div className="nav-link-container">
 							<Link to="/help" className="nav-link">
-								<p className="nav-img">H</p>
 								<p className="nav-text">Help</p>
 							</Link>
 						</div>
@@ -39,15 +36,13 @@ class Navbar extends Component {
 					<div className="lower-section">
 						<div className="nav-link-container">
 							<Link to="/account" className="nav-link">
-								<p className="nav-img">P</p>
-								<p className="nav-text">Profile</p>
+								<p className="nav-text">Account</p>
 							</Link>
 						</div>
 
 						<div className="nav-link-container">
 							<Link to="/about" className="nav-link">
-								<p className="nav-img">A</p>
-								<p className="nav-text">About</p>
+								<p className="nav-text">About Us</p>
 							</Link>
 						</div>
 					</div>
