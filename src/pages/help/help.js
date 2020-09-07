@@ -7,7 +7,7 @@ function Help(){
 	return (
 		<div className="help-container">
 			<div className="help-image">
-				<img src="#" />
+				<img src="#" alt=""/>
 			</div>
 			<HelpTopic name="Contact Us" link="/help/contact"/>
 			<HelpTopic name="FAQ" link="/help/faq"/>
