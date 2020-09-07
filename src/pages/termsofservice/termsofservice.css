@@ -1,8 +1,16 @@
+.termsofservice-container {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 2.5em;
+	background: var(--secondary-color-content);
+}
+
 .conditions {
-	width: 50%;
+	width: 90%;
 	margin: 0 auto;
 }
 
 .conditions li {
 	margin-top: 0.6em;
 }
+

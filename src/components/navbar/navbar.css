@@ -31,11 +31,6 @@
 	width: 85px;
 	height: 85px;
 	margin: 0 auto;
-	transition: all 5s;
-}
-
-.company-logo:hover {
-	transform: rotate(360deg);
 }
 
 .upper-section, .lower-section, .navigation {
@@ -75,8 +70,21 @@
 	display: flex;
 	text-decoration: none;
 	justify-content: space-around;
-	color: var(--logo-color-dark);
+	color: rgba(33, 33, 33, 0.7);
 	font-weight: 600;
 	transition: color 0.25s;
 	padding: 0;
+}
+
+.nav-link:hover {
+	color: rgba(33,33,33,1);
+}
+
+.nav-icon {
+	width: 23px !important;
+	height: auto;
+}
+
+.svg-inline--fa.fa-w-12 {
+	width: 18px !important;
 }

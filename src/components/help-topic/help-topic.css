@@ -1,6 +1,14 @@
 .help-topic {
-	width: 40%;
+	width: 80%;
 	text-align: center;
-	border: 1px solid black;
-	margin-top: 2em;
+	border: 1px solid rgba(150, 119, 74, 0.5);
+	border-radius: 5px;
+	background: var(--base-color-1);
+	margin-top: 1em;
+	font-weight: 600;
+	transition: background 0.25s;
+}
+
+.help-topic:hover {
+	background: rgba(194, 161, 114, 1);
 }

@@ -1,15 +1,13 @@
 :root {
-	--base-color-1: rgba(255,213,154, 0.8);
-	--base-color-2: rgb(255, 233, 201);
+	--base-color-1: rgba(255,213,154, 0.3);
+	--base-color-2: rgba(255, 233, 201, 0.3);
 	--base-color-deco: rgb(196, 153, 92);
+	--secondary-color-content: rgba(194, 245, 168, 0.2);
 
-	--nav-link-color: rgba(255, 204, 130, 1);
-	--nav-link-color-hover: rgba(242, 191, 116, 0.6);
+	--nav-link-color: rgba(242, 191, 116, 0.2);
+	--nav-link-color-hover: rgba(242, 191, 116, 0.4);
 
-	--logo-color-light: rgba(145 ,185 ,142 ,1);
-	--logo-color-dark: rgba(69 ,119 ,59 ,1);
-
-	--border-style-1: 11px solid rgba(196, 153, 92, 0.8);
+	--border-style-1: 11px solid rgba(196, 153, 92, 0.9);
 }
 
 @font-face {
@@ -54,4 +52,8 @@ h1,h2,h3, .center-text {
 h1, h2, h3 {
 	font-family: fredoka;
 	font-weight: 400;
+}
+
+p {
+	line-height: 130%;
 }

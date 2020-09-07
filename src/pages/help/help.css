@@ -1,6 +1,6 @@
 .help-image{
 	margin: 0 auto;
-	margin-top: 4em;
+	margin-top: 2em;
 	width: 200px;
 	height: 150px;
 	background: blue;
@@ -8,6 +8,12 @@
 
 .help-container {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: flex-start;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+	background: var(--secondary-color-content);
+	min-height: 100vh;
 }

@@ -1,8 +1,11 @@
 .about-container {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	min-height: 100vh;
 	justify-content: center;
+	width: 70%;
+	margin: 0 auto;
+	background: var(--secondary-color-content);
 }
 
 h3, h2, p.mission-text {
@@ -31,11 +34,24 @@ h3, h2, p.mission-text {
 
 .connect-button {
 	color: black;
-	padding: 0.6em;
+}
+
+.tos {
 	border: 1px solid black;
+	border-radius: 3px;
+	padding: 0.5em;
+}
+
+.fa-btn {
+	width: 25px !important;
+	height: auto;
+}
+
+.svg-inline--fa.fa-w-10 {
+	width: 17px !important;
 }
 
 .about-paragraph {
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 }

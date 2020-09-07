@@ -4,6 +4,9 @@ import './about.css';
 
 import { Link } from 'react-router-dom';
 
+import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function About(){
 	return (
 		<div className="about-container">
@@ -17,17 +20,17 @@ function About(){
 			aliquet. Mauris hendrerit, est vitae blandit bibendum, leo eros bibendum tellus, ut sagittis enim
 			 neque vel odio. Sed nec nibh malesuada, sodales odio in, convallis lectus.</p>
 
-			<h3>Connect With Us!</h3>
-			<div className="connect-container">
-				<Link to="/na" className="connect-button">Facebook</Link>
-				<Link to="/na" className="connect-button">Twitter</Link>
-				<Link to="/na" className="connect-button">Instagram</Link>
-			</div>
-
 			<h3>Our Policies</h3>
 			<div className="terms-policies-container">
-				<Link to="/about/termsofservice" className="connect-button top-margin">Terms and Conditions</Link>
-				<Link to="/about/privacy" className="connect-button top-margin">Privacy Policy</Link>
+				<Link to="/about/termsofservice" className="tos top-margin">Terms and Conditions</Link>
+				<Link to="/about/privacy" className="tos top-margin">Privacy Policy</Link>
+			</div>
+
+			<h3>Connect With Us!</h3>
+			<div className="connect-container">
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faTwitter} /></Link>
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faFacebookF} /></Link>
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faInstagram} /></Link>
 			</div>
 		</div>
 	)

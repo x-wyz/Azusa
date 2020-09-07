@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom';
 
 import Logo from '../../icons/logo.png';
 
+
+import { faHome, faSearchDollar, faUser, faQuestion } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 class Navbar extends Component {
 	render(){
 		return (
@@ -16,19 +20,25 @@ class Navbar extends Component {
 					<div className="upper-section">
 						<div className="nav-link-container">
 							<Link to="/" className="nav-link">
-								<p className="nav-text">Home</p>
+								<p className="nav-text">
+									<FontAwesomeIcon className="nav-icon" icon={faHome} />
+								</p>
 							</Link>
 						</div>
 
 						<div className="nav-link-container">
 							<Link to="/stores" className="nav-link">
-								<p className="nav-text">Search</p>
+								<p className="nav-text">
+									<FontAwesomeIcon className="nav-icon" icon={faSearchDollar} />
+								</p>
 							</Link>
 						</div>
 
 						<div className="nav-link-container">
 							<Link to="/help" className="nav-link">
-								<p className="nav-text">Help</p>
+								<p className="nav-text">
+									<FontAwesomeIcon className="nav-icon" icon={faQuestion} />
+								</p>
 							</Link>
 						</div>
 					</div>
@@ -36,7 +46,9 @@ class Navbar extends Component {
 					<div className="lower-section">
 						<div className="nav-link-container">
 							<Link to="/account" className="nav-link">
-								<p className="nav-text">Account</p>
+								<p className="nav-text">
+									<FontAwesomeIcon className="nav-icon" icon={faUser} />
+								</p>
 							</Link>
 						</div>
 
