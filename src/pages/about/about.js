@@ -28,9 +28,9 @@ function About(){
 
 			<h3>Connect With Us!</h3>
 			<div className="connect-container">
-				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faTwitter} /></Link>
-				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faFacebookF} /></Link>
-				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn" icon={faInstagram} /></Link>
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn twitter-logo" icon={faTwitter} /></Link>
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn facebook-logo" icon={faFacebookF} /></Link>
+				<Link to="/na" className="connect-button"><FontAwesomeIcon className="fa-btn instagram-logo" icon={faInstagram} /></Link>
 			</div>
 		</div>
 	)

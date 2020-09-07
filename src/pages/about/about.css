@@ -3,7 +3,7 @@
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	width: 70%;
+	width: var(--content-width-1);
 	margin: 0 auto;
 	background: var(--secondary-color-content);
 }
@@ -45,10 +45,26 @@ h3, h2, p.mission-text {
 .fa-btn {
 	width: 25px !important;
 	height: auto;
+	transition: color 0.1s;
 }
 
-.svg-inline--fa.fa-w-10 {
+.twitter-logo:hover {
+	/* Twitter Logo */
+	color: rgb(28,156,235);
+}
+
+.facebook-logo {
+	/* Facebook Logo */
 	width: 17px !important;
+}
+
+.facebook-logo:hover {
+	color: rgb(59,89,152);
+}
+
+.instagram-logo:hover {
+	/* Instagram Logo */
+	color: rgb(147,56,188)
 }
 
 .about-paragraph {

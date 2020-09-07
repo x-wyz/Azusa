@@ -1,13 +1,15 @@
 :root {
-	--base-color-1: rgba(255,213,154, 0.3);
-	--base-color-2: rgba(255, 233, 201, 0.3);
-	--base-color-deco: rgb(196, 153, 92);
-	--secondary-color-content: rgba(194, 245, 168, 0.2);
+	--base-color-1: rgba(61, 98, 120, 0.12);
+	--base-color-2: rgba(61, 98, 120, 0.2);
+	--base-color-deco: rgb(21, 28, 32);
+	--secondary-color-content: rgba(228, 235, 240, 0.6);
 
-	--nav-link-color: rgba(242, 191, 116, 0.2);
-	--nav-link-color-hover: rgba(242, 191, 116, 0.4);
+	--nav-link-color: rgba(61, 98, 120, 0.1);
+	--nav-link-color-hover: rgba(61, 98, 120, 0.2);
 
-	--border-style-1: 11px solid rgba(196, 153, 92, 0.9);
+	--border-style-1: 11px solid rgb(21, 28, 32, 0.9);
+
+	--content-width-1: 85%;
 }
 
 @font-face {

@@ -22,6 +22,7 @@ class Navbar extends Component {
 							<Link to="/" className="nav-link">
 								<p className="nav-text">
 									<FontAwesomeIcon className="nav-icon" icon={faHome} />
+									<span className="label home-label">Home</span>
 								</p>
 							</Link>
 						</div>
@@ -30,6 +31,7 @@ class Navbar extends Component {
 							<Link to="/stores" className="nav-link">
 								<p className="nav-text">
 									<FontAwesomeIcon className="nav-icon" icon={faSearchDollar} />
+									<span className="label">Search</span>
 								</p>
 							</Link>
 						</div>
@@ -38,6 +40,7 @@ class Navbar extends Component {
 							<Link to="/help" className="nav-link">
 								<p className="nav-text">
 									<FontAwesomeIcon className="nav-icon" icon={faQuestion} />
+									<span className="label">Help</span>
 								</p>
 							</Link>
 						</div>
