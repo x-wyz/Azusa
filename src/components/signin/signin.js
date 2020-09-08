@@ -23,12 +23,12 @@ class SignIn extends Component {
 		return (
 			<div>
 				<h2>Sign In</h2>
-				<form>
+				<form className="signin-form">
 					<label className="labels" htmlFor="signin-email">Email</label>
-					<input type="email" onChange={this.update} id="signin-email" value={email} />
+					<input className="formfield-input" type="email" onChange={this.update} id="signin-email" value={email} required />
 					<label className="labels" htmlFor="signin-password">Password</label>
-					<input type="password" onChange={this.update} id="signin-password" value={password} />
-					<input type="submit" />
+					<input className="formfield-input" type="password" onChange={this.update} id="signin-password" value={password} required />
+					<input className="formfield-submit" type="submit" value="Login" />
 				</form>
 			</div>
 		)

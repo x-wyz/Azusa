@@ -38,7 +38,11 @@ class AccountPresigned extends Component {
 					}
 				</button>
 
-				<Link to="/help/recover" className="recover-account">Recover Account</Link>
+				<Link to="/help/recover" className="recover-account">
+					<button className="register-signin">
+						Recover Account
+					</button>
+				</Link>
 			</div>
 		)
 	}

@@ -11,6 +11,8 @@ import Help from './pages/help/help';
 import AccountPresigned from './pages/account-presigned/account-presigned';
 import Search from './pages/search/search';
 
+import AccountRecover from './pages/help/help-pages/account-recover/account-recover';
+
 import { Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
@@ -28,6 +30,8 @@ class App extends React.Component {
 
 						<Route exact path="/account" component={AccountPresigned} />
 						<Route exact path="/stores" component={Search} />
+
+						<Route exact path="/help/recover" component={AccountRecover} />
 
 						<Route exact path="/" component={Home} />
 					</Switch>

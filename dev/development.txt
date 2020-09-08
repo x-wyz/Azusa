@@ -1,20 +1,16 @@
 Pages
 
+	- Label/Input component
+
+	- Move container css to index.css
+
+	--
+
 	- FAQ
 
 	- Contact Us
 
 	- Refund
-
-	- Recover Acc
-
-	- Colours
-
-	- Fonts
-
-	- CSS
-
-	- azusa.cs1@gmail.com
 
 Component
 	- Shopping cart

@@ -1,14 +1,14 @@
-.account-form {
+.recovery-container {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	width: var(--content-width-1);
 	justify-content: center;
+	width: var(--content-width-1);
 	margin: 0 auto;
 	background: var(--secondary-color-content);
 }
 
-.register-signin {
+.signin-signup {
 	width: 40%;
 	margin: 0 auto;
 	margin-top: 1em;

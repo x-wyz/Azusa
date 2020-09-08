@@ -63,3 +63,26 @@ p {
 	line-height: 130%;
 	color: rgb(11, 18, 22);
 }
+
+input, button {
+	display: block;
+	outline: 0;
+	text-align: center;
+	border: 0;
+}
+
+button, input[type="submit"] {
+	background: rgba(200, 213, 230, 0.7);
+	transition: background 0.15s;
+	font-weight: 600;
+	border-radius: 2px;
+}
+
+button:hover, input[type="submit"]:hover {
+	cursor: pointer;
+	background: rgba(200, 213, 230, 0.4);
+}
+
+label {
+	font-weight: 500;
+}

@@ -1,0 +1,14 @@
+/* Rest of css in signin component */
+
+.signup-form {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.tos-confirm-container {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 0.8em;
+}
