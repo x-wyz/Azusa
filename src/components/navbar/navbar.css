@@ -106,3 +106,8 @@
 .svg-inline--fa.fa-w-14 {
 	position: static;
 }
+
+.nav-text {
+	padding: 0.8em;
+	margin: 0;
+}

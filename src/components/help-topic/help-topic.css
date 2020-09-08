@@ -1,14 +1,29 @@
 .help-topic {
-	width: 80%;
+	width: 45%;
 	text-align: center;
-	border: 1px solid rgba(150, 119, 74, 0.5);
-	border-radius: 5px;
+	border-radius: 4px;
 	background: var(--base-color-1);
 	margin-top: 1em;
 	font-weight: 600;
-	transition: background 0.25s;
+	transition: background 0.15s;
+	border-left: 2px solid rgba(197,208,215, 0.3);
+	border-right: 2px solid rgba(197,208,215, 0.3);
+}
+
+.help-topic:hover > .help-icon {
+	padding: 0.8em;
+	padding-top: 1em;
 }
 
 .help-topic:hover {
-	background: rgba(194, 161, 114, 1);
+	background: rgba(197,208,215, 0.3);
+}
+
+.help-icon {
+	width: 40%;
+	height: 130px;
+	padding: 1em;
+	padding-top: 1.3em;
+	box-sizing: border-box;
+	transition: padding 0.25s;
 }
