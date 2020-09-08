@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Privacy(){
 	return (
-		<div className="privacy-container">
+		<div className="content-container">
 			<h2>Our Privacy Policy</h2>
 			<p className="privacy-text"> This privacy policy ("Policy") describes how the personally identifiable information ("Personal Information") you may provide on the azusa.com website ("Website" or "Service") and any of its related products and services (collectively, "Services") is collected, protected and used. It also describes the choices available to you regarding our use of your Personal Information and how you can access and update this information. This Policy is a legally binding agreement between you ("User", "you" or "your") and this Website operator ("Operator", "we", "us" or "our"). By accessing and using the Website and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. This Policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage.</p>
 			<h2>Automatic collection of information</h2>

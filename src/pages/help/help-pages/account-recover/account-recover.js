@@ -23,7 +23,7 @@ class AccountRecover extends Component {
 	render(){
 		const { email } = this.state;
 		return (
-			<div className="recovery-container">
+			<div className="content-container center">
 				<h2>Recover Account</h2>
 				 <form className="recovery-form">
 				 	<label for="recover-email" className="labels">Email</label>

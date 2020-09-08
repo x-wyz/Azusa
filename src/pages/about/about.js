@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function About(){
 	return (
-		<div className="about-container">
+		<div className="content-container center">
 			<h3 className="about-subheader"> Our Mission </h3>
 			<p className="mission-text about-paragraph">Maecenas et tellus sit amet diam mollis placerat. Suspendisse a vehicula est.</p>
 

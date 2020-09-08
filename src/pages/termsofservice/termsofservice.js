@@ -4,7 +4,7 @@ import './termsofservice.css';
 
 function TermsOfService(){
 	return (
-		<div className="termsofservice-container">
+		<div className="content-container termsofservice-container">
 			<h1>Terms and conditions</h1>
 			<p className="tos_condition">These terms and conditions "Agreement" sets forth the general terms and conditions of your 
 			use of the azusa.com website ("Website" or "Service")

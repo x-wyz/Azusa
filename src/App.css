@@ -1,3 +1,16 @@
 .content {
 	margin-left: 120px;
 }
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: var(--content-width-1);
+	margin: 0 auto;
+	background: var(--secondary-color-content);
+}
+
+.center {
+	justify-content: center;
+}

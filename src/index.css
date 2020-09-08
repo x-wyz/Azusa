@@ -2,14 +2,14 @@
 	--base-color-1: rgb(197,208,215);
 	--base-color-2: rgba(61, 98, 120, 0.2);
 	--base-color-deco: rgb(21, 28, 32);
-	--secondary-color-content: rgba(228, 235, 240, 0.65);
+	--secondary-color-content: rgba(228, 235, 240, 0.55);
 
 	--nav-link-color: rgb(183,197,205);
 	--nav-link-color-hover: rgb(170,186,196);
 
 	--border-style-1: 11px solid rgb(21, 28, 32, 0.9);
 
-	--content-width-1: 85%;
+	--content-width-1: 88%;
 }
 
 @font-face {
