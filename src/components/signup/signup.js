@@ -13,6 +13,7 @@ class SignUp extends Component {
 		}
 		this.update = this.update.bind(this);
 		this.confirm = this.confirm.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	update(event){
@@ -27,13 +28,18 @@ class SignUp extends Component {
 		})
 	}
 
+	handleSubmit(event){
+		event.preventDefault();
+		
+	}
+
 	render(){
 		const {email, password, passwordconfirm, text} = this.state;
 
 		return (
 			<div>
 				<h2>Sign Up</h2>
-				<form className="signup-form">
+				<form className="signup-form" onSubmit={this.handleSubmit}>
 					<label className="labels" htmlFor="signup-username">Identity (Name / Username / Nickname)</label>
 					<input className="formfield-input" type="text" onChange={this.update} id="signup-username" value={text} required />
 					<label className="labels" htmlFor="signup-email">Email</label>
@@ -44,7 +50,7 @@ class SignUp extends Component {
 					<input className="formfield-input" type="password" onChange={this.confirm} id="signup-password-confirm" value={passwordconfirm} required />
 					<div className="tos-confirm-container">
 						<input type="checkbox" value="tos" required />
-						<label className="formfield-input" className="tos-label" htmlFor="tos">I have read the terms of service.</label>
+						<label className="tos-label" htmlFor="tos">I have read the terms of service.</label>
 					</div>
 					<input className="formfield-submit" type="submit" value="Register" />
 				</form>
