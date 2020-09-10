@@ -11,7 +11,7 @@ function About(){
 	return (
 		<div className="content-container center">
 			<h3 className="about-subheader"> Our Mission </h3>
-			<p className="mission-text about-paragraph">Maecenas et tellus sit amet diam mollis placerat. Suspendisse a vehicula est.</p>
+			<p className="mission-text">Maecenas et tellus sit amet diam mollis placerat. Suspendisse a vehicula est.</p>
 
 			<h2 className="about-header">About Us</h2>
 			<p className="about-paragraph center-text">Proin vehicula augue in libero consectetur, ut vestibulum mauris auctor. 
@@ -22,8 +22,8 @@ function About(){
 
 			<h3 className="about-subheader">Our Policies</h3>
 			<div className="terms-policies-container">
-				<Link to="/about/termsofservice" className="tos top-margin">Terms and Conditions</Link>
-				<Link to="/about/privacy" className="tos top-margin">Privacy Policy</Link>
+				<Link to="/about/termsofservice" className="tos-btns top-margin">Terms and Conditions</Link>
+				<Link to="/about/privacy" className="tos-btns top-margin">Privacy Policy</Link>
 			</div>
 
 			<h3 className="about-subheader">Connect With Us!</h3>

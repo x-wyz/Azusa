@@ -8,6 +8,12 @@
 	margin-left: 10em;
 }
 
+.privacy-list-long li {
+	margin-left: 7em;
+	margin-top: 0.4em;
+	width: 80%;
+}
+
 .to-about {
 	border: 1px solid black;
 	padding: 0.3em;

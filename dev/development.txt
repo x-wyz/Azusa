@@ -4,12 +4,6 @@ Pages
 
 	--
 
-	- server
-
-	- database
-
-	--
-
 	- FAQ
 
 	- Contact Us

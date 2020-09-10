@@ -46,7 +46,7 @@ function Privacy(){
 			<p className="privacy-text">Where Personal Information is processed for the public interest, in the exercise of an official authority vested in us or for the purposes of the legitimate interests pursued by us, you may object to such processing by providing a ground related to your particular situation to justify the objection.</p>
 			<h2>Data protection rights under GDPR</h2>
 			<p className="privacy-text">If you are a resident of the European Economic Area (EEA), you have certain data protection rights and the Operator aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Information. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us. In certain circumstances, you have the following data protection rights:</p>
-			<ul className="privacy-list">
+			<ul className="privacy-list-long">
 				<li>You have the right to request access to your Personal Information that we store and have the ability to access your Personal Information.</li>
 				<li>You have the right to request that we correct any Personal Information you believe is inaccurate. You also have the right to request us to complete the Personal Information you believe is incomplete.</li>
 				<li>You have the right to request the erase your Personal Information under certain conditions of this Policy.</li>

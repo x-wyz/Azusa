@@ -1,0 +1,21 @@
+.pfinfo-container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.profile-header {
+	font-weight: 600;
+	padding-bottom: 0.4em;
+	text-indent: 1em;
+	border-bottom: 1px solid white;
+}
+
+.profile-data {
+	margin-left: 4em;
+}
+
+.signout-btn {
+	width: 30%;
+	margin: 0 auto;
+	padding: 1.2em 0;
+}

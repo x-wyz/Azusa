@@ -9,6 +9,8 @@ class SignUp extends Component {
 			email: '',
 			password: '',
 			passwordconfirm: '',
+			message: "",
+			isErr: false
 
 		}
 		this.update = this.update.bind(this);
@@ -30,7 +32,41 @@ class SignUp extends Component {
 
 	handleSubmit(event){
 		event.preventDefault();
-		
+		fetch('http://localhost:3001/signup', {
+			method: 'post',
+			headers: {'Content-Type': 'application/json'},
+			body: JSON.stringify({
+				email: this.state.email,
+				password: this.state.password,
+				passwordConfirm: this.state.passwordconfirm,
+				name: this.state.text
+			})
+		})
+		.then(response => response.json())
+		.then(response => {
+			if (response.email) {
+				this.setState({
+					message: `Your account ${response.email} has been successfully created.`,
+					isErr: false
+				})
+			}
+			else {
+				this.setState({
+					message: `${response}`,
+					isErr: true
+				})
+			}
+		})
+		.catch(err => {
+			console.log("Failed to create account :(");
+		})
+
+		this.setState({
+			text: "",
+			email: "",
+			password: "",
+			passwordconfirm: ""
+		})
 	}
 
 	render(){
@@ -39,6 +75,9 @@ class SignUp extends Component {
 		return (
 			<div>
 				<h2>Sign Up</h2>
+				{
+					this.state.message ? <p className={`${this.state.isErr ? "errorMessage" : "successMessage"}`}>{this.state.message}</p> : ""
+				}
 				<form className="signup-form" onSubmit={this.handleSubmit}>
 					<label className="labels" htmlFor="signup-username">Identity (Name / Username / Nickname)</label>
 					<input className="formfield-input" type="text" onChange={this.update} id="signup-username" value={text} required />

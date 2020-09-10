@@ -9,14 +9,17 @@ import Refund from '../../icons/help_refund.svg';
 
 import HelpTopic from '../../components/help-topic/help-topic';
 
-function Help(){
+function Help(props){
 	return (
 		<div className="help-container">
 			<h2 className="help-header">Need Assistance?</h2>
 			<HelpTopic name="Contact Us" link="/help/contact" ico={Contact} />
 			<HelpTopic name="FAQ" link="/help/faq" ico={FAQ}/>
 			<HelpTopic name="Terms of Service" link="/about/termsofservice" ico={TOS}/>
-			<HelpTopic name="Recover Account" link="/help/recover" ico={Recover}/>
+			{
+				!props.isLogged ? <HelpTopic name="Recover Account" link="/help/recover" ico={Recover}/> : null
+			}
+
 			<HelpTopic name="Refund" link="/help/refund" ico={Refund}/>
 		</div>
 	)

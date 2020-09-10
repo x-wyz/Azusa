@@ -1,7 +1,7 @@
 .search-container {
 	background: rgba(228, 235, 240, 1);
-	padding-top: 0.8em;
-	border-bottom: 1px solid rgb(21, 28, 32, 0.1);
+	padding-top: 0.3em;
+	border-bottom: 0.1px solid rgb(21, 28, 32, 0.1);
 }
 
 .search-formfield {
@@ -15,15 +15,17 @@
 	display: block;
 	width: 90%;
 	border: 0;
-	padding: 0.5em;
-	font-size: 15px;
+	padding: 0.4em;
+	font-size: 12px;
 	outline: 0;
 	text-align: center;
 }
 
-.searchfield-submit {
+input[type="submit"].searchfield-submit {
 	display: block;
 	width: 40%;
 	border: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 

@@ -12,6 +12,7 @@ class AccountPresigned extends Component {
 
 		this.state = {
 			signup: false,
+			user: null
 		}
 
 		this.switch = this.switch.bind(this);
@@ -29,7 +30,7 @@ class AccountPresigned extends Component {
 		return (
 			<div className="content-container center">
 				{
-					signup ? <SignUp /> : <SignIn />
+					signup ? <SignUp /> : <SignIn loginHandler={this.props.loginHandler} />
 				}
 
 				<button onClick={ this.switch } className="register-signin">

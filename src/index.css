@@ -71,14 +71,14 @@ input, button {
 	border: 0;
 }
 
-button, input[type="submit"] {
-	background: rgba(200, 213, 230, 0.7);
+button, input[type="submit"], .tos-btns {
+	background: rgba(200, 213, 230, 0.9);
 	transition: background 0.15s;
 	font-weight: 600;
 	border-radius: 2px;
 }
 
-button:hover, input[type="submit"]:hover {
+button:hover, input[type="submit"]:hover, .tos-btns:hover {
 	cursor: pointer;
 	background: rgba(200, 213, 230, 0.4);
 }

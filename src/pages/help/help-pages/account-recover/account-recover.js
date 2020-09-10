@@ -8,10 +8,13 @@ class AccountRecover extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			email: ''
+			email: '',
+			message: null,
+			sent: false
 		}
 
 		this.update = this.update.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	update(event){
@@ -20,14 +23,50 @@ class AccountRecover extends Component {
 		})
 	}
 
+	handleSubmit(event){
+		event.preventDefault();
+		
+		fetch('http://localhost:3001/recover', {
+			method: 'post',
+			headers: {'Content-Type': 'application/json'},
+			body: JSON.stringify({
+				email: this.state.email
+			})
+		})
+		.then(response => response.json())
+		.then(response => {
+			if (response === "No email found associated with the selected email."){
+				this.setState({
+					message: response,
+					sent: false
+				})
+			}
+			else {
+				this.setState({
+					message: response,
+					sent: true
+				})
+			}
+		})
+		.catch(err => console.log("Error sending recover email"))
+
+		// Placing this here in case there is an error I still want the form to be reset.
+		this.setState({
+			email: ""
+		})
+	}
+
 	render(){
 		const { email } = this.state;
 		return (
 			<div className="content-container center">
 				<h2>Recover Account</h2>
-				 <form className="recovery-form">
-				 	<label for="recover-email" className="labels">Email</label>
-				 	<input className="formfield-input" type="email" id="recover-email"/>
+				{
+					this.state.message ? <p className={`emailrecovery ${this.state.sent ? 'emailsent' : 'emailnotsent'}`}>{this.state.message}</p> : null
+				}
+				 <form className="recovery-form" onSubmit={this.handleSubmit}>
+				 	<label htmlFor="recover-email" className="labels">Email</label>
+				 	<input className="formfield-input" type="email" id="recover-email" onChange={this.update} value={email} required/>
 				 	<input type="submit" className="formfield-submit" value="Recover Password" />
 				 </form>
 				 <Link to="/account">

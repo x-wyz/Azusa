@@ -6,14 +6,46 @@ class SignIn extends Component {
 		super(props);
 		this.state = {
 			email: '',
-			password: ''
+			password: '',
+			message: ''
 		}
 		this.update = this.update.bind(this);
+		this.submitHandler = this.submitHandler.bind(this);
 	}
 
 	update(event){
 		this.setState({
 			[event.target.type]: event.target.value
+		})
+	}
+
+	submitHandler(event){
+		event.preventDefault();
+		fetch('http://localhost:3001/signin', {
+			method: 'post',
+			headers: {'Content-Type': 'application/json'},
+			body: JSON.stringify({
+				email: this.state.email,
+				password: this.state.password
+			})
+		})
+		.then(response => response.json())
+		.then(response => {
+			if (response.uuid) {
+				this.props.loginHandler(response);
+			}
+			else {
+				this.setState({
+					message: response
+				})
+			}
+		})
+		.catch(err => {
+			console.log("Error signing in")
+		})
+
+		this.setState({
+			password: ''
 		})
 	}
 
@@ -23,7 +55,10 @@ class SignIn extends Component {
 		return (
 			<div>
 				<h2>Sign In</h2>
-				<form className="signin-form">
+				{
+					this.state.message ? <p className="incorrectLogin">{this.state.message}</p> : null
+				}
+				<form className="signin-form" onSubmit={this.submitHandler}>
 					<label className="labels" htmlFor="signin-email">Email</label>
 					<input className="formfield-input" type="email" onChange={this.update} id="signin-email" value={email} required />
 					<label className="labels" htmlFor="signin-password">Password</label>
