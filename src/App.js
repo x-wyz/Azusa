@@ -13,6 +13,8 @@ import Search from './pages/search/search';
 import Profile from './pages/profile/profile';
 
 import AccountRecover from './pages/help/help-pages/account-recover/account-recover';
+import FAQ from './pages/help/help-pages/faq/faq';
+import Contact from './pages/help/help-pages/contact/contact';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -66,6 +68,9 @@ class App extends Component {
 						<Route exact path="/stores" component={Search} />
 
 						<Route exact path="/help/recover" component={AccountRecover} />
+
+						<Route exact path="/help/faq" component={FAQ} />
+						<Route exact path="/help/contact" component={Contact} />
 
 						<Route exact path="/" component={Home} />
 					</Switch>

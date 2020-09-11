@@ -4,3 +4,8 @@
 	height: 100vh;
 	justify-content: center;
 }
+
+.home-text {
+	margin-top: 0;
+	color: var(--text-gray);
+}

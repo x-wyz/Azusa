@@ -31,7 +31,7 @@ class Navbar extends Component {
 							<Link to="/stores" className="nav-link">
 								<p className="nav-text">
 									<FontAwesomeIcon className="nav-icon" icon={faSearchDollar} />
-									<span className="label">Search</span>
+									<span className="label label-search">Search</span>
 								</p>
 							</Link>
 						</div>
@@ -40,7 +40,7 @@ class Navbar extends Component {
 							<Link to="/help" className="nav-link">
 								<p className="nav-text">
 									<FontAwesomeIcon className="nav-icon" icon={faQuestion} />
-									<span className="label">Help</span>
+									<span className="label label-help">Help</span>
 								</p>
 							</Link>
 						</div>

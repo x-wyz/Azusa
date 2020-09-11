@@ -33,6 +33,11 @@ h3, h2, p.mission-text  {
 .tos-btns {
 	border-radius: 3px;
 	padding: 0.6em;
+	color: rgb(64, 64, 64);
+	transition: 0.15s color;
+}
+
+.tos-btns:hover {
 	color: inherit;
 }
 

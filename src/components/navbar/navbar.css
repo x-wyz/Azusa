@@ -14,7 +14,7 @@
 	border-right: 25px solid var(--base-color-deco);
 	border-top: 25px solid transparent;
 	bottom: 0;
-	right: -13px;
+	right: -11px;
 }
 
 .navigation-container::before {
@@ -23,7 +23,7 @@
 	border-left: 25px solid transparent;
 	border-top: 25px solid var(--base-color-deco);
 	top: 0;
-	right: -13px;
+	right: -11px;
 }
 
 .company-logo {
@@ -91,16 +91,18 @@
 }
 
 .nav-icon {
-	width: 23px !important;
+	width: 19px !important;
 	position: relative;
 	right: 0.7em;
 	height: auto;
+	color: rgb(69, 72, 73);
 }
 
 .svg-inline--fa.fa-w-12 {
 	position: relative;
 	right: 1.15em;
-	width: 18px !important;
+	bottom: 0em;
+	width: 13px !important;
 }
 
 .svg-inline--fa.fa-w-14 {
@@ -108,6 +110,16 @@
 }
 
 .nav-text {
-	padding: 0.8em;
+	padding: 0.7em;
 	margin: 0;
+}
+
+.label-help {
+	position: relative;
+	bottom: 0.1em;
+}
+
+.label-search {
+	position: relative;
+	bottom: 0.1em;
 }

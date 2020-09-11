@@ -46,8 +46,6 @@ app.post('/signin', (req, res) => {
 		}
 	})
 	.catch(err => res.json('Unable to sign in.'))
-
-
 })
 
 // Registry endpoint
@@ -115,8 +113,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'azusa.help@gmail.com',
-    pass: '@476958123cs'
+    user: 'REPLACE_WITH_EMAIL',
+    pass: 'REPLACE_WITH_PASSWORD'
   }
 });
 

@@ -4,18 +4,21 @@
 }
 
 .profile-header {
-	font-weight: 600;
+	font-weight: 400;
 	padding-bottom: 0.4em;
+	font-size: 13px;
 	text-indent: 1em;
 	border-bottom: 1px solid white;
 }
 
 .profile-data {
+	font-size: 17px;
 	margin-left: 4em;
 }
 
 .signout-btn {
 	width: 30%;
 	margin: 0 auto;
+	margin-top: 2em;
 	padding: 1.2em 0;
 }

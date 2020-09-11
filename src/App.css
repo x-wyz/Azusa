@@ -14,3 +14,7 @@
 .center {
 	justify-content: center;
 }
+
+.large-spacing p{
+	line-height: 135%;
+}

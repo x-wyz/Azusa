@@ -7,9 +7,11 @@
 	--nav-link-color: rgb(183,197,205);
 	--nav-link-color-hover: rgb(170,186,196);
 
-	--border-style-1: 11px solid rgb(21, 28, 32, 0.9);
+	--border-style-1: 11px solid rgb(21, 28, 32, 1);
 
 	--content-width-1: 88%;
+
+	--text-gray: rgb(120,122,127);
 }
 
 @font-face {
@@ -45,7 +47,7 @@ a {
 	text-decoration: none;
 	color: black;
 	font-family: cabin;
-	font-weight: 300;
+	font-weight: 400;
 	display: block;
 }
 
@@ -64,21 +66,21 @@ p {
 	color: rgb(11, 18, 22);
 }
 
-input, button {
+input, button, textarea {
 	display: block;
 	outline: 0;
 	text-align: center;
 	border: 0;
 }
 
-button, input[type="submit"], .tos-btns {
+button, input[type="submit"], .tos-btns, .to-about {
 	background: rgba(200, 213, 230, 0.9);
 	transition: background 0.15s;
 	font-weight: 600;
 	border-radius: 2px;
 }
 
-button:hover, input[type="submit"]:hover, .tos-btns:hover {
+button:hover, input[type="submit"]:hover, .tos-btns:hover, .to-about:hover {
 	cursor: pointer;
 	background: rgba(200, 213, 230, 0.4);
 }

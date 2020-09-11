@@ -4,6 +4,10 @@
 	border-bottom: 0.1px solid rgb(21, 28, 32, 0.1);
 }
 
+.search-text {
+	color: var(--text-gray);
+}
+
 .search-formfield {
 	display: flex;
 	width: 70%;
